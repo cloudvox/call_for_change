@@ -1,7 +1,4 @@
-1. Edit config/startup.rb to set Asterisk/Cloudvox settings and Rails env
-   (see config/startup.rb.template)
-
-2. In app root, run: ahn start .
+1. In app root, run: ahn start .
 
 
 .. then call it and enjoy.

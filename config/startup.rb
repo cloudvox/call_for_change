@@ -27,8 +27,8 @@ Adhearsion::Configuration.configure do |config|
   
   # By default Asterisk is enabled with the default settings
   config.enable_asterisk
-  config.asterisk.enable_ami :host => "NNNN.cloudvox.com", :port => 5038,
-    :username => "manager", :password => "mypassword", :events => true
+  #config.asterisk.enable_ami :host => "NNNN.cloudvox.com", :port => 5038, 
+    #:username => "manager", :password => "mypassword", :events => true
   
   # config.enable_drb
   
