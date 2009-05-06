@@ -1,8 +1,6 @@
 *~
-.robot_password.txt
 config/database.yml
 db/schema.rb
 tmp/restart.txt
 .DS_Store
-db/*.sql.gz
-config/database.branch.*
+log/*.log
