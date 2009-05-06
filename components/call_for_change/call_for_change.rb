@@ -7,10 +7,10 @@ end
 class CallForChange
   def initialize(call)
     @call = call
-    reset_choice
   end
   
   def start
+    # let caller go through a few times
     3.times do
       say_menu
       collect_choice
@@ -45,10 +45,6 @@ class CallForChange
     @choice >= 1 and @choice <= 3
   end
   
-  def reset_choice
-    @choice = nil
-  end
-
   def speak(phrase)
     # specify text-to-speech system and send as quoted phrase
     @call.execute 'swift', "\"#{phrase}\""
