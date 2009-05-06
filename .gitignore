@@ -1,6 +1,4 @@
 *~
-config/database.yml
-db/schema.rb
-tmp/restart.txt
 .DS_Store
 log/*.log
+config/startup.rb

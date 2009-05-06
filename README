@@ -1,8 +1,13 @@
-Start your new app with "ahn start /path/to/your/app"
+1. Edit config/startup.rb to set Asterisk/Cloudvox settings and Rails env
+   (see config/startup.rb.template)
 
-If you wish to use Adhearsion to control Asterisk's dialplan,
-change the contexts you wish to be affected in your
-/etc/asterisk/extensions.conf file to the following:
+2. In app root, run: ahn start .
 
-[your_context_name]
-exten => _X.,1,AGI(agi://1.2.3.4) ; This IP here
+
+.. then call it and enjoy.
+
+
+Code: http://github.com/sevenscale/callforchange
+Questions: http://help.cloudvox.com/
+Phone call API: http://cloudvox.com/
+
